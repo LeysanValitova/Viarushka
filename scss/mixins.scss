@@ -1,0 +1,16 @@
+@mixin btn-style($btnWidth, $btnHeig, $f-size) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: $intro;
+    font-size: $f-size;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    background-color: $textColor;
+    color: #fff;
+    width: $btnWidth;
+    height: $btnHeig;
+    border-radius: 100px;
+}

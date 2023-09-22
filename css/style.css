@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 3.75rem 0 3.75rem;
+}
+
+.btn_cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: "Intro";
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: #5222D0;
+  color: #fff;
+  width: 115px;
+  height: 35px;
+  border-radius: 100px;
+}
+
+@font-face {
+  font-family: "Intro";
+  src: url(../fonts/intro.woff);
+}
+.main {
+  display: flex;
+  margin-left: 6.3rem;
+}
+
+.content {
+  width: 37.639vw;
+}
+
+.content__title {
+  color: #000;
+  font-family: "Intro";
+  font-size: 3.8rem;
+  line-height: 120%;
+  margin-top: 3.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.content__text {
+  color: #000;
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  line-height: 160%;
+  width: 33.8vw;
+}
+
+.btn_buy {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: "Intro";
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: #5222D0;
+  color: #fff;
+  width: 270px;
+  height: 84px;
+  border-radius: 100px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav, ul, li {
+  list-style-type: none;
+}
+
+nav {
+  margin-top: 8.35rem;
+}
+
+a {
+  text-decoration: none;
+  color: #5222D0;
+}
+
+.container {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 52vw;
+}
+
+/*# sourceMappingURL=style.css.map */

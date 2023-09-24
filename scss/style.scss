@@ -28,6 +28,10 @@ body {
     src: url(../fonts/intro.woff);
 }
 
+button { border: none;
+    background-color: transparent;
+    }
+
 .main {
     display: flex;
     // width: 91.25vw;

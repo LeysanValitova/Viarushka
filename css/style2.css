@@ -1,0 +1,165 @@
+.subscribe__title, .cart__title {
+  font-family: "Intro";
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 3.75rem 0 3.75rem;
+}
+
+.btn_cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: "Intro";
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: #5222D0;
+  color: #fff;
+  width: 115px;
+  height: 35px;
+  border-radius: 100px;
+}
+
+@font-face {
+  font-family: "Intro";
+  src: url(../fonts/intro.woff);
+}
+.main__title {
+  text-transform: uppercase;
+  font-family: "Intro";
+  font-size: 4rem;
+  margin: 4.45rem 0 0.7rem 114px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.wrapper {
+  margin: 14px 0 0 92px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart {
+  width: 440px;
+  position: relative;
+}
+
+.cart:hover {
+  border: 1px solid #BB2247;
+}
+
+.cart__media {
+  background-color: #EC615B;
+  margin: 14px 40px 0 25px;
+  height: 233px;
+  width: 365px;
+}
+
+.cart__media_img {
+  height: 255px;
+  position: absolute;
+  top: 1.5rem;
+  left: 3rem;
+  width: 298px;
+  background-image: url(../images/praktikum3\ 1.png);
+  background-repeat: no-repeat;
+}
+
+.cart__title {
+  padding-left: 33px;
+  margin: 60px 0 10px 0;
+}
+
+.cart__text {
+  font-family: Roboto Slab;
+  font-weight: 300;
+  line-height: 160%;
+  padding: 0 42px 25px 33px;
+}
+
+.cart__media_img-2 {
+  background-image: url(../images/praktikum2\ 1.png);
+  width: 303px;
+  height: 278px;
+}
+
+.cart__media_img-3 {
+  background-image: url(../images/praktikum1\ 1.png);
+  width: 340px;
+  height: 265px;
+}
+
+.subscribe {
+  width: 365px;
+  height: 233px;
+  background-color: #EC615B;
+  margin: 60px 0 0 30px;
+}
+
+.subscribe__title {
+  color: #fff;
+  padding: 25px 0 0 18px;
+}
+
+#subscribe__email {
+  height: 40px;
+  width: 323px;
+  margin-left: 20px;
+  margin-top: 6px;
+  font-size: 20px;
+}
+
+.subscribe__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: "Intro";
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: #5222D0;
+  color: #fff;
+  width: 135px;
+  height: 38px;
+  border-radius: 100px;
+  margin-left: 18px;
+  margin-top: 23px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto Slab;
+}
+
+.nav {
+  margin: 86px 0 0 126px;
+  gap: 34px;
+  display: flex;
+}
+
+/*# sourceMappingURL=style2.css.map */
